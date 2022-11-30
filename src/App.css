@@ -1,0 +1,91 @@
+.App {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.top-container {
+  margin-top: 100px;
+  color: white;
+  background-color: rgb(22, 22, 42);
+  height: 200px;
+  padding-top: 60px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+.whole-container {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-row-gap: 60px;
+}
+.chart-container {
+  margin-top: 70px;
+  width: 280px;
+  height: 380px;
+  border: 1px solid black;
+  margin-left: 300px;
+}
+.top-content {
+  width: 280px;
+  height: 160px;
+}
+.bottom-content {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.view {
+  margin-top: 60px;
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+}
+.add-cart {
+  margin-top: 38px;
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+}
+.cart-without-star {
+  margin-top: 60px;
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+}
+.bottom-widget-container {
+  text-align: center;
+}
+.price-content {
+  font-size: 15px;
+}
+.text-on-line {
+  text-decoration-line: line-through;
+}
+.badge {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  width: 34px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: -154px;
+  margin-left: 224px;
+  position: absolute;
+}
+.star {
+  width: 20px;
+  height: 20px;
+}
+.starImg {
+  display: flex;
+  margin-left: 90px;
+}
+.bottom-container {
+  margin-top: 80px;
+  color: white;
+  background-color: rgb(22, 22, 42);
+  height: 95px;
+  padding-top: 50px;
+  text-align: center;
+  width: 100%;
+}
